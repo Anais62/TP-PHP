@@ -1,0 +1,161 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: URL('image/janvier.png');
+  }
+  
+.navbar {
+    background-color: #553c3c;
+    overflow: hidden;
+  }
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(201, 121, 177);
+  }
+
+.form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+  }
+  
+button:hover {
+    background-color: #555;
+  }
+  
+ 
+.co {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.co button {
+    border-radius: 1px solid red;
+}
+
+.article-container {
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: whitesmoke;
+    background-color: rgba(75, 68, 68, 0.99);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    margin-right: 30px;
+}
+
+.imagearticle {
+    width: 350px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.article-details {
+    flex-grow: 1; 
+}
+
+.article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.article p {
+    margin-bottom: 10px;
+}
+
+.article span {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.favori {
+    width: 40px;
+}
+
+.article button {
+    border: none; 
+    background: none; 
+    padding: 0; 
+    cursor: pointer;
+}
+
+.seco {
+   text-align: center;
+   font-size: 3rem;
+   margin-bottom: 20px;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: whitesmoke;
+    background-color: rgba(75, 68, 68, 0.99);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    margin-right: 30px;
+    margin-top: 8rem;
+}
